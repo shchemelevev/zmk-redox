@@ -33,7 +33,8 @@
                 , <&macro_tap &kp W>
                 , <&macro_release &kp LGUI &kp LSHFT>
                 , <&kp LSHFT(W)>
-                , <&kp LSHFT(E)
+                , <&kp LSHFT(E)>
+                , <&kp A>
                 ;
         };
     };
