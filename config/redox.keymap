@@ -32,7 +32,7 @@
                 , <&macro_press &kp LSHFT>
                 , <&macro_tap &kp LG(Q)>
                 , <&macro_release &kp LSHFT>
-                , <&kp LSHFT(W)>
+                //, <&kp LSHFT(W)>
                 ;
         };
     };
