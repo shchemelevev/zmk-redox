@@ -28,15 +28,21 @@
             tap-ms = <40>;
             bindings
                 =
-                <&kp R>
-                , <&macro_press &kp LGUI &kp LSHFT >
-                , <&macro_tap &kp W>
-                , <&macro_release &kp LGUI &kp LSHFT>
-                , <&kp LS(A)>
-                , <&kp LS(W)>
-                , <&kp LS(E)>
-                , <&kp LS(A)>
+                <&kp R>,
+                , <&kp LG(W)>
+                , <&kp W>,
+                , <&kp LG(E)>,
+                , <&kp A>
                 ;
+                // <&kp R>
+                //, <&macro_press &kp LGUI &kp LSHFT >
+                //, <&macro_tap &kp W>
+                //, <&macro_release &kp LGUI &kp LSHFT>
+                //, <&kp LS(A)>
+                //, <&kp LS(W)>
+                //, <&kp LS(E)>
+                //, <&kp LS(A)>
+                //;
         };
     };
 };
