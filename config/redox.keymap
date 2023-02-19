@@ -27,7 +27,7 @@
             bindings
                 = <&macro_tap R>
                 , <&macro_press &kp LSHFT &kp LGUI>
-                , <&macro_tab &kp Q>
+                , <&macro_tap &kp Q>
                 , <&macro_pause_for_release>
                 , <&macro_release &kp LGUI>
                 , <&macro_tap &kp W>
