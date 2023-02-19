@@ -25,14 +25,13 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <300>;
-            tap-ms = <40>;
+            tap-ms = <100>;
             bindings
                 =
                 <&kp R>
                 , <&kp LG(W)>
-                , <&kp W>
                 , <&kp LG(E)>
-                , <&kp A>
+                , <&kp W>
                 ;
                 // <&kp R>
                 //, <&macro_press &kp LGUI &kp LSHFT >
