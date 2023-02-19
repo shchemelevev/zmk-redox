@@ -30,7 +30,7 @@
                 =
                 <&kp R>
                 , <&macro_press &kp LSHFT>
-                , <&macro_tap &kp LG(Q)>
+                , <&macro_tap &kp LG(W)>
                 , <&macro_release &kp W &kp LSHFT>
                 ;
         };
