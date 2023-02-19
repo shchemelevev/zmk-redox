@@ -33,7 +33,7 @@
                 , <&kp LG(E)>
                 , <&kp W>
                 , <&macro_wait_time 900>
-                , <&kp A>
+                , <&kp LS(A)>
                 ;
                 // <&kp R>
                 //, <&macro_press &kp LGUI &kp LSHFT >
