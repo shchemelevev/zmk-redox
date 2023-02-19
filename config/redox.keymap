@@ -29,9 +29,9 @@
             bindings
                 =
                 <&kp R>
-                , <&macro_press &kp LSHFT &kp LG(W)>
-                //, <&macro_tap &kp LG(W)>
-                , <&macro_release &kp W &kp LSHFT>
+                , <&macro_press &kp LGUI &kp LSHFT >
+                , <&macro_tap &kp W>
+                , <&macro_release &kp LGUI &kp W &kp LSHFT>
                 ;
         };
     };
