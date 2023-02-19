@@ -32,7 +32,7 @@
                 , <&kp LG(W)>
                 , <&kp LG(E)>
                 , <&kp W>
-                , <&macro_wait_time 900>
+                , <&macro_wait_time 1200>
                 , <&kp LS(A)>
                 ;
                 // <&kp R>
