@@ -32,6 +32,7 @@
                 , <&kp LG(W)>
                 , <&kp LG(E)>
                 , <&kp W>
+                , <&kp A>
                 ;
                 // <&kp R>
                 //, <&macro_press &kp LGUI &kp LSHFT >
