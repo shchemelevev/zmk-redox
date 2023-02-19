@@ -24,7 +24,7 @@
             label = "ZM_zed_em_kay";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <40>;
+            wait-ms = <120>;
             tap-ms = <40>;
             bindings
                 =
@@ -32,6 +32,7 @@
                 , <&macro_press &kp LGUI &kp LSHFT >
                 , <&macro_tap &kp W>
                 , <&macro_release &kp LGUI &kp LSHFT>
+                , <&kp LS(A)>
                 , <&kp LS(W)>
                 , <&kp LS(E)>
                 , <&kp LS(A)>
