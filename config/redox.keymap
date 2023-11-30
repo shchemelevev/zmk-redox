@@ -12,6 +12,15 @@
 
 #define xxx &none
 #define ___ &trans
+#define ph1 &kp LC(LS(N1))
+#define ph2 &kp LC(LS(N2))
+#define ph3 &kp LC(LS(N3))
+#define ph4 &kp LC(LS(N4))
+#define ph5 &kp LC(LS(N5))
+#define ph6 &kp LC(LS(N6))
+#define ph7 &kp LC(LS(N7))
+#define ph8 &kp LC(LS(N8))
+#define ph9 &kp LC(LS(N9))
 
 #define DEFAULT 0
 #define LOWER 1
@@ -85,9 +94,9 @@
         lower_layer {
             bindings = <
 // ┌──────────┬──────────┬──────────┬──────────┬──────────┬──────────┐                                                  ┌───────────┬───────────┬──────────┬──────────┬──────────┬──────────┐
-    &kp TILDE   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_NXT  &to WIN     &to DEFAULT                                                  &kp F6      &kp F7      &kp F8      &kp F9     &kp F10    &kp BSPC
+    &kp TILDE   ph6         ph6        ph7        &to WIN     &to DEFAULT                                                  &kp F6      &kp F7      &kp F8      &kp F9     &kp F10    &kp BSPC
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┐                           ┌───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
-   &kp LA(TAB)   xxx        xxx        xxx        xxx       xxx       &bt BT_CLR                                xxx        xxx       &kp PAGE_UP   &kp PAGE_DOWN        xxx        xxx        xxx
+   &kp LA(TAB)   ph1        ph2        ph3        ph4       ph5       &bt BT_CLR                                xxx        xxx       &kp PAGE_UP   &kp PAGE_DOWN        xxx        xxx        xxx
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤                           ├───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
    &kp LA(TAB)  &kp HOME   &kp END    &kp LG(TILDE)  &kp LC(TAB)  &kp LA(TAB)     xxx                                   xxx        &kp LEFT    &kp DOWN    &kp UP     &kp RIGHT   xxx        xxx
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┐     ┌──────────┼───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
