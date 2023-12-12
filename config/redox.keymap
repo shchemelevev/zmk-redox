@@ -104,7 +104,7 @@
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┐     ┌──────────┼───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
        xxx   &kp Z     &kp X      &kp C      &kp V      &kp B      &kp PG_UP  &kp PG_DN       &kp HOME     &kp END     &kp N      &kp M       &kp COMMA  &kp DOT    &kp FSLH   xxx
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤     ├──────────┼───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
-     &kp LCTRL   &kp LALT  &kp LCMD   &kp TAB               &lhm LOWER SPACE   &kp ESC  xxx       &kp RET  &lhm RAISE SPACE     &mo 2                &bhm LC(SPACE) ESC &kp DOWN  &kp UP   &kp RET
+       xxx   &kp LALT  &kp LCMD   &kp TAB              &lhm LOWER SPACE   &kp ESC  xxx             xxx        &kp RET  &lhm RAISE SPACE  &kp BSPC   &kp DOWN  &kp UP   &kp RET  xxx
 // └──────────┴──────────┴──────────┴──────────┘          └──────────┴──────────┴──────────┘     └──────────┴───────────┴───────────┘           └──────────┴──────────┴──────────┴──────────┘
 // 
                                   &kp TAB  &lhm LOWER SPACE  &kp ESC     &kp RET    &lhm RAISE SPACE  &kp ESC
