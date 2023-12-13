@@ -96,15 +96,15 @@
         default_layer {
             bindings = <
 // ┌──────────┬──────────┬──────────┬──────────┬──────────┬──────────┐                                                  ┌───────────┬───────────┬──────────┬──────────┬──────────┬──────────┐
-       xxx     &kp N1    &kp N2     &kp N3     &kp N4     &kp N5                                                         &kp N6     &kp N7       &kp N8    &kp N9      &kp N0    &kp BSPC
+       xxx     &kp N1    &kp N2     &kp N3     &kp N4     &kp N5                                                         &kp N6     &kp N7       &kp N8    &kp N9      &kp N0    xxx
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┐                           ┌───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
-       xxx     &kp Q     &kp W      &kp E      &kp R      &kp T      &kp LPAR                                 &kp N6     &kp Y      &kp U        &kp I     &kp O       &kp P     &kp SQT
+       xxx     &kp Q     &kp W      &kp E      &kp R      &kp T      &kp LPAR                                 &kp N6     &kp Y      &kp U        &kp I     &kp O       &kp P     xxx
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤                           ├───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
        xxx   &bhm LSHIFT A &bhm LALT S  &bhm LGUI D &bhm LCTRL F &kp G  &to DEFAULT                          &mo 3       &kp H   &bhm LCTRL J &bhm LGUI K  &bhm LALT L  &bhm RSHIFT SEMI  xxx
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┐     ┌──────────┼───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
        xxx   &kp Z     &kp X      &kp C      &kp V      &kp B      &kp PG_UP  &kp PG_DN       &kp HOME     &kp END     &kp N      &kp M       &kp COMMA  &kp DOT    &kp FSLH   xxx
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤     ├──────────┼───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
-       xxx   &kp LALT  &kp LCMD   &kp TAB              &lhm LOWER SPACE   &kp ESC  xxx             xxx        &kp RET  &lhm RAISE SPACE  &kp BSPC   &kp DOWN  &kp UP   &kp RET  xxx
+       xxx   &kp LALT  &kp LCMD   &kp TAB              &lhm LOWER ESC   &kp SPACE  xxx             xxx        &kp SPACE  &lhm RAISE RET  &kp BSPC   &kp DOWN  &kp UP   &kp RET  xxx
 // └──────────┴──────────┴──────────┴──────────┘          └──────────┴──────────┴──────────┘     └──────────┴───────────┴───────────┘           └──────────┴──────────┴──────────┴──────────┘
 // 
                                   &kp TAB  &lhm LOWER SPACE  &kp ESC     &kp RET    &lhm RAISE SPACE  &kp ESC
@@ -131,13 +131,13 @@
         raise_layer {
             bindings = <
 // ┌──────────┬──────────┬──────────┬──────────┬──────────┬──────────┐                                                  ┌───────────┬───────────┬──────────┬──────────┬──────────┬──────────┐
-    &kp TILDE    &kp F1     &kp F1     &kp F3     &kp F4     &kp F5                                                       &to WIN     &to DEFAULT       &kp F8      &kp F9     &kp F10    &kp BSPC
+    &kp TILDE    &kp F1     &kp F1     &kp F3     &kp F4     &kp F5                                                       &to WIN     &to DEFAULT   &kp F8    &kp F9     &kp F10   xxx
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┐                           ┌───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
-   &kp LA(TAB)   xxx        xxx        xxx        xxx        xxx         xxx                                   xxx       &kp TILDE    &kp UNDER   &kp PLUS    xxx        &kp LBKT   &kp RBKT
+   &kp LA(TAB)   xxx        xxx        xxx        xxx        xxx         xxx                                   xxx       &kp TILDE    &kp UNDER   &kp PLUS    xxx       &kp LBKT   &kp RBKT
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤                           ├───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
-     &kp LSHFT     xxx        xxx        xxx        xxx        xxx      &to  CONF                                   xxx       &kp GRAVE    &kp MINUS   &kp EQUAL   &kp BSLH   &kp SQT    &kp RSHFT
+     &kp LSHFT     xxx        xxx        xxx        xxx        xxx      &to  CONF                                   xxx       &kp GRAVE    &kp MINUS   &kp EQUAL   &kp SQT   &kp SLASH    &kp RSHFT
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┐     ┌──────────┼───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
-      xxx        xxx        xxx        xxx        xxx        xxx         ___         ___            ___         ___        &kp PIPE   &kp LBKT    &kp RBKT    &kp LBRC   &kp RBRC   xxx
+      xxx        xxx        xxx        xxx        xxx        xxx         ___         ___            ___         ___        &kp PIPE   &kp LBKT    &kp RBKT    &kp LBRC   &kp BSLH   xxx
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤     ├──────────┼───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
       &trans     &trans    &trans       &mo 3                &trans      &mo 3     &trans           &trans      &trans     &trans                 &trans      &trans     &trans     &trans
 // └──────────┴──────────┴──────────┴──────────┘          └──────────┴──────────┴──────────┘     └──────────┴───────────┴───────────┘           └──────────┴──────────┴──────────┴──────────┘
