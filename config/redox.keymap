@@ -28,7 +28,7 @@
 #define RAISE 2
 #define CONF 3
 #define WIN 4
-#define NUM 4
+#define NUM 5
 / {
     macros {
         zed_em_kay: zed_em_kay {
