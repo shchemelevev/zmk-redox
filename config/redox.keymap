@@ -65,7 +65,51 @@
             label = "ZM_cold_snap";
             compatible = "zmk,behavior-macro";
             bindings = <&kp Q &kp Q &kp Q &kp R>;
-            //bindings = <&kp Q>, <mv>, <&kp Q>, <mv>, <&kp Q>, <mv>, <&kp R>;
+        };
+        ghost_walk: ghost_walk {
+            label = "ZM_ghost_walk";
+            compatible = "zmk,behavior-macro";
+            bindings = <&kp Q &kp Q &kp W>;
+        };
+        ice_wall: ice_wall {
+            label = "ZM_ice_wall";
+            compatible = "zmk,behavior-macro";
+            bindings = <&kp Q &kp Q &kp E &kp R>;
+        };
+        emp: emp {
+            label = "ZM_emp";
+            compatible = "zmk,behavior-macro";
+            bindings = <&kp W &kp W &kp W &kp R>;
+        };
+        tornado: tornado {
+            label = "ZM_tornado";
+            compatible = "zmk,behavior-macro";
+            bindings = <&kp W &kp W &kp Q &kp R>;
+        };
+        alacrity: alacrity {
+            label = "ZM_alacrity";
+            compatible = "zmk,behavior-macro";
+            bindings = <&kp W &kp W &kp E &kp R>;
+        };
+        sun_strike: sun_strike{
+            label = "ZM_sun_strike";
+            compatible = "zmk,behavior-macro";
+            bindings = <&kp E &kp E &kp E &kp R>;
+        };
+        forge_spirit: forge_spirit{
+            label = "ZM_forge_spirit";
+            compatible = "zmk,behavior-macro";
+            bindings = <&kp E &kp E &kp Q &kp R>;
+        };
+        meteor: meteor{
+            label = "ZM_meteor";
+            compatible = "zmk,behavior-macro";
+            bindings = <&kp E &kp E &kp W &kp R>;
+        };
+        deaf_blast: deaf_blast{
+            label = "ZM_meteor";
+            compatible = "zmk,behavior-macro";
+            bindings = <&kp Q &kp E &kp W &kp R>;
         };
     };
 };
@@ -173,7 +217,7 @@
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┐     ┌──────────┼───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
      &kp LCTRL   &kp Z     &kp X      &kp C      &kp V      &kp B      &kp PG_UP  &kp PG_DN       &kp HOME     &kp END     &kp N      &kp M       &kp COMMA  &kp DOT    &kp FSLH   &kp RET
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤     ├──────────┼───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
-     &kp LCTRL   &kp LALT  &kp LGUI   &kp LALT               &mo 1     &kp SPACE  &kp SPACE        &kp SPACE  &kp SPACE     &mo 2                &kp LA(LSHFT) &to DEFAULT  &kp UP   &kp RET
+     &kp LCTRL   &kp LALT  &kp LGUI   &kp LALT               &mo 1     &kp SPACE  &mo INVO        &kp SPACE  &kp SPACE     &mo 2                &kp LA(LSHFT) &to DEFAULT  &kp UP   &kp RET
 // └──────────┴──────────┴──────────┴──────────┘          └──────────┴──────────┴──────────┘     └──────────┴───────────┴───────────┘           └──────────┴──────────┴──────────┴──────────┘
             >;
     };
@@ -193,7 +237,6 @@
 // └──────────┴──────────┴──────────┴──────────┘          └──────────┴──────────┴──────────┘     └──────────┴───────────┴───────────┘           └──────────┴──────────┴──────────┴──────────┘
             >;
     };
-        };
     
         invoker_layer {
             bindings = <
