@@ -65,61 +65,61 @@
             label = "ZM_cold_snap";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Q &kp Q &kp Q &kp R>;
+            bindings = <&kp Q &kp Q &kp Q &kp R &kp D>;
         };
         ghost_walk: ghost_walk {
             label = "ZM_ghost_walk";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Q &kp Q &kp W &kp R>;
+            bindings = <&kp Q &kp Q &kp W &kp R &kp D>;
         };
         ice_wall: ice_wall {
             label = "ZM_ice_wall";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Q &kp Q &kp E &kp R>;
+            bindings = <&kp Q &kp Q &kp E &kp R &kp D>;
         };
         emp: emp {
             label = "ZM_emp";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp W &kp W &kp W &kp R>;
+            bindings = <&kp W &kp W &kp W &kp R &kp D>;
         };
         tornado: tornado {
             label = "ZM_tornado";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp W &kp W &kp Q &kp R>;
+            bindings = <&kp W &kp W &kp Q &kp R &kp D>;
         };
         alacrity: alacrity {
             label = "ZM_alacrity";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp W &kp W &kp E &kp R>;
+            bindings = <&kp W &kp W &kp E &kp R &kp D>;
         };
         sun_strike: sun_strike{
             label = "ZM_sun_strike";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp E &kp E &kp R>;
+            bindings = <&kp E &kp E &kp E &kp R &kp D>;
         };
         forge_spirit: forge_spirit{
             label = "ZM_forge_spirit";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp E &kp Q &kp R>;
+            bindings = <&kp E &kp E &kp Q &kp R &kp D>;
         };
         meteor: meteor{
             label = "ZM_meteor";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp E &kp W &kp R>;
+            bindings = <&kp E &kp E &kp W &kp R &kp D>;
         };
         deaf_blast: deaf_blast{
             label = "ZM_deaf_blast";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Q &kp E &kp W &kp R>;
+            bindings = <&kp Q &kp E &kp W &kp R &kp D>;
         };
     };
 };
@@ -253,7 +253,7 @@
 // ┌──────────┬──────────┬──────────┬──────────┬──────────┬──────────┐                                                  ┌───────────┬───────────┬──────────┬──────────┬──────────┬──────────┐
      xxx         xxx       xxx        xxx        xxx        xxx                                                            &kp N6     &kp N7       &kp N8    &kp N9      &kp N0    &kp BSPC
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┐                           ┌───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
-     xxx  &tornado  &meteor      &deaf_blast  &sun_strike    &cold_snap     xxx                                    &kp N6     &kp Y      &kp U        &kp I     &kp O       &kp P     &kp SQT
+     xxx  &meteor   &tornado     &deaf_blast  &sun_strike    &cold_snap     xxx                                    &kp N6     &kp Y      &kp U        &kp I     &kp O       &kp P     &kp SQT
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤                           ├───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
      xxx  &ice_wall &ghost_walk  &alacrity    &emp           &forge_spirit  xxx                                   &mo 3       &kp H   &bhm LCTRL J &bhm LGUI K  &bhm LALT L  &bhm RSHIFT SEMI  xxx
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┐     ┌──────────┼───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
