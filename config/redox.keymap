@@ -71,7 +71,7 @@
             label = "ZM_ghost_walk";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Q &kp Q &kp W>;
+            bindings = <&kp Q &kp Q &kp W &kp R>;
         };
         ice_wall: ice_wall {
             label = "ZM_ice_wall";
