@@ -116,7 +116,7 @@
             bindings = <&kp E &kp E &kp W &kp R>;
         };
         deaf_blast: deaf_blast{
-            label = "ZM_meteor";
+            label = "ZM_deaf_blast";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Q &kp E &kp W &kp R>;
