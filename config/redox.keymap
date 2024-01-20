@@ -64,7 +64,8 @@
         cold_snap: cold_snap {
             label = "ZM_cold_snap";
             compatible = "zmk,behavior-macro";
-            bindings = <&kp Q>, <mv>, <&kp Q>, <mv>, <&kp Q>, <mv>, <&kp R>;
+            bindings = <&kp Q &kp Q &kp Q &kp R>;
+            //bindings = <&kp Q>, <mv>, <&kp Q>, <mv>, <&kp Q>, <mv>, <&kp R>;
         };
     };
 };
