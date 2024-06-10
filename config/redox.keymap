@@ -121,6 +121,30 @@
             #binding-cells = <0>;
             bindings = <&kp Q &kp E &kp W &kp R &kp D>;
         };
+        tmux0: tmux0{
+            label = "ZM_tmux0";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(b) &kp N0>;
+        };
+        tmux1: tmux1{
+            label = "ZM_tmux1";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(b) &kp N1>;
+        };
+        tmux2: tmux2{
+            label = "ZM_tmux2";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(b) &kp N2>;
+        };
+        tmux2: tmux3{
+            label = "ZM_tmux3";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(b) &kp N3>;
+        };
     };
 };
 
@@ -170,7 +194,7 @@
         lower_layer {
             bindings = <
 // ┌──────────┬──────────┬──────────┬──────────┬──────────┬──────────┐                                                  ┌───────────┬───────────┬──────────┬──────────┬──────────┬──────────┐
-    &kp TILDE   ph6         ph7        ph8        &to WIN     &to DEFAULT                                                  &kp F6      &kp F7      &kp F8      &kp F9     &kp F10    &kp BSPC
+    &kp TILDE   ph6         ph7        ph8        &to WIN     &to DEFAULT                                                  &tmux0      &tmux1      &tmux2     &tmux3     &kp F10    &kp BSPC
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┐                           ┌───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
    &kp LA(TAB)   ph1        ph2        ph3        ph4       ph5       &bt BT_CLR                                xxx        xxx       &kp PAGE_UP   &kp PAGE_DOWN        xxx        xxx        xxx
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤                           ├───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
@@ -188,7 +212,7 @@
 // ┌──────────┬──────────┬──────────┬──────────┬──────────┬──────────┐                                                  ┌───────────┬───────────┬──────────┬──────────┬──────────┬──────────┐
     &kp TILDE    &kp F1     &kp F1     &kp F3     &kp F4     &kp F5                                                       &to WIN     &to DEFAULT   &kp F8    &kp F9     &kp F10   xxx
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┐                           ┌───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
-   &kp LA(TAB)   xxx        xxx        xxx        xxx        xxx         xxx                                   xxx       &kp TILDE    &kp UNDER   &kp PLUS    xxx       &kp LBKT   &kp RBKT
+   &kp LA(TAB)   xxx        xxx        xxx        xxx        xxx         xxx                                   xxx       &kp TILDE    &kp UNDER   &kp PLUS    &kp LBKT   &kp RBKT  xxx       
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤                           ├───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
      &kp LSHFT     xxx        xxx        xxx        xxx        xxx      &to  CONF                                   xxx       &kp GRAVE    &kp MINUS   &kp EQUAL   &kp SQT   &kp SLASH    &kp RSHFT
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┐     ┌──────────┼───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
