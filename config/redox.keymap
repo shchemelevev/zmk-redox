@@ -125,25 +125,25 @@
             label = "ZM_tmux0";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(b) &kp N0>;
+            bindings = <&kp LC(B)>, <&kp N0>;
         };
         tmux1: tmux1{
             label = "ZM_tmux1";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(b) &kp N1>;
+            bindings = <&kp LC(B)>, <&kp N1>;
         };
         tmux2: tmux2{
             label = "ZM_tmux2";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(b) &kp N2>;
+            bindings = <&kp LC(B)>, <&kp N2>;
         };
         tmux2: tmux3{
             label = "ZM_tmux3";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(b) &kp N3>;
+            bindings = <&kp LC(B)>, <&kp N3>;
         };
     };
 };
