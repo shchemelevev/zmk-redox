@@ -145,6 +145,18 @@
             #binding-cells = <0>;
             bindings = <&kp LC(B)>, <&kp N3>;
         };
+        defbt1: defbt1{
+            label = "ZM_defbt1";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to DEFAULT>, <&bt BT_SEL 1>;
+        };
+        winbt2: winbt2{
+            label = "ZM_winbt2";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to WIN>, <&bt BT_SEL 2>;
+        };
     };
 };
 
@@ -194,7 +206,7 @@
         lower_layer {
             bindings = <
 // ┌──────────┬──────────┬──────────┬──────────┬──────────┬──────────┐                                                  ┌───────────┬───────────┬──────────┬──────────┬──────────┬──────────┐
-    &kp TILDE   ph6         ph7        ph8        &to WIN     &to DEFAULT                                                  &tmux0      &tmux1      &tmux2     &tmux3     &kp F10    &kp BSPC
+    &kp TILDE   ph6         ph7        ph8        &defbt1     &winbt2
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┐                           ┌───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
    &kp LA(TAB)   ph1        ph2        ph3        ph4       ph5       &bt BT_CLR                                xxx        xxx       &kp PAGE_UP   &kp PAGE_DOWN        xxx        xxx        xxx
 // ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤                           ├───────────┼───────────┼───────────┼──────────┼──────────┼──────────┼──────────┤
